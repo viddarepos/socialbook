@@ -1,0 +1,17 @@
+1. Kucam npm init da bi inicijalizovao node aplikaciju.
+2. Instaliram frejmvork express i ostale potrebne biblioteke komadnom "npm install express mongoose dotenv helmet morgan nodemon"
+    -express -> node.js frejmvork koji nam pomaze da pravimo nasu node.js aplikaciju i moj server ce da se pokrece na expresu.
+    -mongoose -> pomaze mi da kreiram moje mongo modele da bi mogo da kreiram podatke u bazi "mongo db"
+    -dot.env -> posle kreirana mongodb-a dot.env mi daje tajni url koji sadrzi nasa baza, ime servera i moj username i password. Ako se dot.env ne koristi kako treba ili uopste, neko mi moze ukrasti podatke i koristi u njegovoj svrsi
+    pa ih moramo negde sakriti i cuvati. Bilo koji key i bilo koju sifru mozemo cuvati i dot.env
+    -helmet -> kada krenem da pravim request na serveru pomoci ce mi da ostanem zasticen jer kad pravim request na server, taj request tacnije njegov header moze nositi neke ranjive podatke koje trebamo
+    sacuvati.
+    -morgan -> on predstavlja request logging middleware koji sluzi kada pravimo request na serveru, vratice nam koji je requst napravljen, koji je rezultat i koliko dugo je trajalo i sve to mozemo videti u 
+    terminalu
+    -nodemom -> znam.
+    
+3. Prvo sto radim kad zavrsim ove korake, kucam u package.json u startu "nodemon index.js"
+4. Posle pisanje servera, povezivanje sa bazom itd., instaliram biblioteku po imenu bcrypt komandom " npm install bcrypt" da bi sifre u bazi bile sifrovane.
+5.Dodajem multer path komandom npm install multer path i to je middleware za hendlovanje za upload fajlova,slika itd.
+
+1:02:20

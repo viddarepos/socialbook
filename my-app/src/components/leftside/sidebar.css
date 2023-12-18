@@ -1,0 +1,83 @@
+.sidebar {
+    flex: 2;
+    height: calc(100vh - 50px);
+    /*dodajem calc zato sto mi je navbar visine 50 piksela i da nisam dodao calc, cim povucem slajder kontent nestaje iza navbara ovako ne a dobijam visinu na stranu*/
+    overflow-y: scroll;
+    /* skrolanje */
+    /*fiksiram sidebar da stoji u mesto*/
+    position: sticky;
+    top: 50px;
+    /*fiksiram sidebar da stoji u mesto*/
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgb(179, 179, 179);
+}
+
+
+.sidebarWrapper {
+    padding: 20px;
+
+}
+
+.sidebarList {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.sidebarListItem {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.sidebarIcon {
+    margin-right: 15px;
+}
+
+.sidebarButton {
+    background-color: rgb(188, 182, 182);
+    width: 150px;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: 500;
+}
+
+.sidebarHr {
+    margin: 20px 0;
+}
+
+.sidebarFriend {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.sidebarFriendImg {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+.sidebarIcon {
+    color: gray;
+}
+
+.sidebarListItemText:hover {
+    cursor:pointer;
+    color: rgb(0, 136, 248);
+    transition: 0.2s;
+
+}

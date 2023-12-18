@@ -1,0 +1,212 @@
+.rightbar {
+    flex: 2.5;
+    -webkit-box-shadow: -4px 11px 15px -1px rgba(125, 125, 125, 1);
+    -moz-box-shadow: -4px 11px 15px -1px rgba(125, 125, 125, 1);
+    box-shadow: -4px 11px 15px -1px rgba(125, 125, 125, 1);
+    height: calc(100vh - 50px);
+    overflow-y: scroll;
+    position: sticky;
+    top: 50px;
+}
+
+.rightbarWrapper {
+    padding: 20px 20px 0 0;
+}
+
+.birthdayContainer {
+    display: flex;
+    align-items: center;
+}
+
+.birthdayImg {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.birthdayText {
+    font-weight: 300;
+    font-style: 15px;
+}
+
+.rightbarAd {
+    width: 100%;
+    border-radius: 10px;
+    margin: 30px 0;
+}
+
+.userInfoProfile{
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.68);
+    box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.68);
+    background-color: rgb(232, 232, 232);
+    padding:20px;
+    text-align: center;
+}
+.testUserInfo{
+    display: flex;
+    flex-direction: column;
+    gap:2rem;
+}
+
+.rightbarTitle {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+    ;
+    margin-bottom: 15px;
+    color: rgb(0, 0, 0);
+}
+
+.rightbarInfo {
+    margin-bottom: 30px;
+
+}
+
+.rightbarInfoItem {
+    margin-bottom: 10px;
+}
+
+.rightbarInfoKey {
+    font-weight: 500;
+    margin-right: 15px;
+    color: #555;
+}
+
+.rightbarInfoValue {
+    font-weight: 500;
+}
+
+.rightbarFollowings {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+
+.rightbarFollowing {
+    display: flex;
+    flex-direction: column;
+}
+
+.rightbarFollowingImg {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.rightbarFollowingImg:hover{
+    -webkit-box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.68);
+    box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.68);
+}
+.rightbarFollowButton {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    border: none;
+    background-color: #1872f2;
+    color: white;
+    border-radius: 5px;
+    padding: 5px 10px;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.rightbarFollowButton:focus {
+    outline: none;
+}
+.userInfoFriendsProfile{
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.68);
+    box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.68);
+    background-color: rgb(232, 232, 232);
+    padding:20px;
+    text-align: center;
+}
+
+.rightbarWrapper {
+    padding: 20px;
+
+}
+
+.adInfo {
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.adFeed {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.testadFeed {
+    padding: 10px;
+}
+
+
+.adText {
+    color: rgb(0, 0, 0);
+    font-family: 'Lato', sans-serif;
+
+}
+
+.iconAndTextFlex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.adIcon {
+    color: rgb(0, 0, 0);
+    font-size: 2rem;
+
+}
+
+.adTitle {
+    text-align: center;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.adTitle h4 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: rgb(99, 99, 99);
+
+}
+
+.testforad {
+    background-color: rgb(232, 232, 232);
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 0px 6px 2px #B0B0B0;
+    box-shadow: 0px 0px 6px 2px #B0B0B0;
+    padding: 10px;
+}
+
+.adNotf {
+    padding: 3px;
+    background-color: rgb(247, 218, 0);
+    display: flex;
+    width: 10%;
+    border-radius: 8px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.adNotf p {
+    font-weight: bold;
+    font-size: 12px;
+}

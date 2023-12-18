@@ -1,0 +1,11 @@
+1. Kreiram aplikaciju npx-create-react-app my-app iz cmd-a.
+2. Brisem nepotrebne fajlove.
+3. Dodajem zeljeni font sa google-fonts.
+4. Pravim fajl assets u public i dodajem slike i ostale potrebne stvari.
+5. Instaliram biblioteku ikonica sa linka https://mui.com/material-ui/material-icons/?query=person i komandom npm install @material-ui/core i install @material-ui/icons
+   7.Pravim pages i components i popunjujem ih sa odredjenim fajlovima i njih sa komponente.
+   8.Koristim https://html-css-js.com/css/generator/box-shadow/ za generesanje shadowa za share componentu
+   9.Posle zavrsetka rest api-a, instaliram axios kako bi fetchovao podatke sa bekenda na clienta
+   10.Dodajem novu biblioteku po imenu timeago.js za datum sa komadnom "npm install timeago.js"
+   11.Krecem sa login sistemom. Prvo pravim folder context i u njega pravim tri glavna elementa context api-a actions,reducer,context kako bi wrapovo celu aplikaciju i kako bi mogo da pristupim lakse podacima
+ 
